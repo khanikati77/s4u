@@ -44,6 +44,10 @@ h1 {
     margin-left: 40px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 p.paragraph1 {
     width: 40%;
     float: right;
