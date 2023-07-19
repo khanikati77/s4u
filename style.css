@@ -80,6 +80,7 @@ nav {
 }
 
 .title {
+    position: absolute;
     text-align: center;
     margin-top: 5px;
     margin-left: 10px;
@@ -170,147 +171,50 @@ nav {
 
 /* INVITED SPEAKERS PAGE */
 
+.flexgrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-.photo {
-    border-radius: 10px;
+.entry {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 70%;
+    width: 100%;
+}
+
+.photo-left {
+    height: 350px;
+    width: auto;
+}
+
+.paragraph-left {
+    flex: 1;
+    margin-right: 120px;
+    border-left: 5px solid #FFD800;
+    padding: 15px;
+    text-align: justify;
+}
+
+.photo-right {
+    height: 350px;
+    width: auto;
+}
+
+.paragraph-right {
+    flex: 1;
+    margin-left: 120px;
+    border-right: 5px solid #0056B9;
+    padding: 15px;
+    text-align: justify;
 }
 
 .name {
-    color: #0056B9;
+    font-weight: bold;
 }
 
-.paragraph1 {
-    width: 40%;
-    float: right;
-    text-align: justify;
-    margin-top: 30px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 22px;
-}
-
-p.paragraph2 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 20.4px;
-}
-
-.paragraphr {
-    width: 40%;
-    float: right;
-    text-align: justify;
-    margin-top: 80px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 15.8px;
-}
-
-p.paragraph3 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 17.9px;
-}
-
-.paragraph4 {
-    width: 40%;
-    float: right;
-    text-align: justify;
-    margin-top: 80px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 15.8px;
-}
-
-.paragraph5 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 0.17in;
-}
-
-.paragraph6 {
-    width: 40%;
-    float: right;
-    text-align: justify;
-    margin-top: 80px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 18.7px;
-}
-
-.paragraph7 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 23.3px;
-}
-
-.paragraph8 {
-    width: 40%;
-    height: 369px;
-    float: right;
-    text-align: justify;
-    margin-top: 80px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 17px;
-}
-
-.paragraph9 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 18px;
-}
-
-.paragraph10 {
-    width: 40%;
-    float: right;
-    text-align: justify;
-    margin-top: 80px;
-    margin-right: 200px;
-    border-right: 5px solid #0056B9;
-    padding: 15px;
-    font-size: 18px;
-}
-
-.paragraph11 {
-    width: 40%;
-    float: left;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 200px;
-    border-left: 5px solid #FFD800;
-    padding: 15px;
-    font-size: 3.46vh;
-}
 
 #scrollToTop {
     display: block;
@@ -542,3 +446,4 @@ li.uname {
     right: 10%;
     max-width: 30%;
 }
+
