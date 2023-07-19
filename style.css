@@ -413,39 +413,41 @@ li.uname {
     flex-direction: column;
 }
 
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    max-width: 80%;
+    width: 100%;
+}
+
+.photo {
+    width: auto;
+}
+
 .p1 {
-    position: absolute;
-    margin-left: 12%;
-    margin-top: 12%;
-    max-width: 30%;
-    z-index: 1;
-}
-
-.image1 {
-    width: 40%;
-    margin-left: 120px;
-    position: relative; /* Add this to establish a positioning context */
-}
-
-.image1 img {
-    width: 100%;
-}
-
-.image1 .cap {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding: 5px 10px;
-    width: 100%;
-    font-size: 16px;
+    flex: 1;
+    margin-right: 150px;
+    max-width: 45%;
+    padding: 15px;
 }
 
 .p2 {
-    position: absolute;
-    top: 100%;
-    right: 10%;
-    max-width: 30%;
+    flex: 1;
+    margin-left: 150px;
+    max-width: 45%;
+    padding: 15px;
 }
 
+.imgcap {
+    display: flex;
+    flex-direction: column;
+}
+
+.cap {
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
