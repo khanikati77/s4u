@@ -187,7 +187,7 @@ nav {
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 2.5vh;
+    font-size: 22px;
 }
 
 p.paragraph2 {
@@ -198,7 +198,7 @@ p.paragraph2 {
     margin-left: 200px;
     border-left: 5px solid #FFD800;
     padding: 15px;
-    font-size: 2.5vh;
+    font-size: 20.4px;
 }
 
 .paragraphr {
@@ -209,7 +209,7 @@ p.paragraph2 {
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 1.93vh;
+    font-size: 15.8px;
 }
 
 p.paragraph3 {
@@ -220,7 +220,7 @@ p.paragraph3 {
     margin-left: 200px;
     border-left: 5px solid #FFD800;
     padding: 15px;
-    font-size: 2.1vh;
+    font-size: 17.9px;
 }
 
 .paragraph4 {
@@ -231,7 +231,7 @@ p.paragraph3 {
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 1.92vh;
+    font-size: 15.8px;
 }
 
 .paragraph5 {
@@ -242,7 +242,7 @@ p.paragraph3 {
     margin-left: 200px;
     border-left: 5px solid #FFD800;
     padding: 15px;
-    font-size: 2.02vh;
+    font-size: 0.17in;
 }
 
 .paragraph6 {
@@ -253,7 +253,7 @@ p.paragraph3 {
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 2.3vh;
+    font-size: 18.7px;
 }
 
 .paragraph7 {
@@ -264,18 +264,19 @@ p.paragraph3 {
     margin-left: 200px;
     border-left: 5px solid #FFD800;
     padding: 15px;
-    font-size: 2.8vh;
+    font-size: 23.3px;
 }
 
 .paragraph8 {
     width: 40%;
+    height: 369px;
     float: right;
     text-align: justify;
     margin-top: 80px;
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 2.05vh;
+    font-size: 17px;
 }
 
 .paragraph9 {
@@ -286,7 +287,7 @@ p.paragraph3 {
     margin-left: 200px;
     border-left: 5px solid #FFD800;
     padding: 15px;
-    font-size: 2.2vh;
+    font-size: 18px;
 }
 
 .paragraph10 {
@@ -297,7 +298,7 @@ p.paragraph3 {
     margin-right: 200px;
     border-right: 5px solid #0056B9;
     padding: 15px;
-    font-size: 2.28vh;
+    font-size: 18px;
 }
 
 .paragraph11 {
